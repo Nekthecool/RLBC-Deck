@@ -1,0 +1,160 @@
+body {
+  font-family: "Montserrat";
+  background-color: #671caa;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+img {
+  height: 364px;
+  width: 230px;
+  margin: 0%;
+  margin: 10px;
+}
+
+.picker {
+  margin-left: 20px;
+  color: white;
+}
+
+#div1 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+#div2 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+#div3 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+#div4 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+#div5 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+#div6 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+#div7 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+#div8 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+#div9 {
+  width: 230px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+.megadiv {
+  max-width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 250px);
+  grid-gap: 10px;
+}
+
+.megadiv img {
+  width: 100%;
+  display: block;
+}
+
+@media (min-width: 320px) {
+  .megadiv {
+    grid-template-columns: repeat(1, 250px);
+    margin-left: 11%;
+  }
+  @media (min-width: 481px) {
+    .megadiv {
+      grid-template-columns: repeat(2, 250px);
+      margin-left: 15%;
+    }
+    @media (min-width: 641px) {
+      .megadiv {
+        grid-template-columns: repeat(2, 250px);
+        margin-left: 15%;
+      }
+      @media (min-width: 961px) {
+        .megadiv {
+          grid-template-columns: repeat(3, 300px);
+          margin-left: 5%;
+        }
+        @media (min-width: 1025px) {
+          .megadiv {
+            grid-template-columns: repeat(4, 250px);
+            margin-left: 7%;
+          }
+          @media (min-width: 1281px) {
+            .megadiv {
+              grid-template-columns: repeat(5, 250px);
+              margin-left: 5%;
+            }
+            @media (min-width: 1581px) {
+              .megadiv {
+                grid-template-columns: repeat(5, 250px);
+                margin-left: 10%;
+              }
+              @media (min-width: 1881px) {
+                .megadiv {
+                  grid-template-columns: repeat(7, 230px);
+                  margin-left: 5%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.end {
+  text-align: center;
+  color: white;
+}
+
+a {
+  color: lightblue;
+}
+
+a:hover {
+  color: white;
+}

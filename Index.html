@@ -1,0 +1,1335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css" />
+    <script src="Deck.js"></script>
+  </head>
+  <body>
+    <br />
+    <br />
+    <h1>Pick your Deck</h1>
+    <br />
+    <br />
+
+    <div class="megadiv">
+      <!-- 1st Card Slot -->
+      <div id="div1">
+        <img id="imageToSwap1" src="placeholder.jpg" />
+
+        <label class="picker" for="card1">Choose card:</label>
+        <select id="card1" onChange="swapImage1()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- 2nd Card Slot -->
+
+      <div id="div2">
+        <img id="imageToSwap2" src="placeholder.jpg" />
+
+        <label class="picker" for="card2">Choose card:</label>
+        <select id="card2" onChange="swapImage2()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- 3rd card slot -->
+
+      <div id="div3">
+        <img id="imageToSwap3" src="placeholder.jpg" />
+
+        <label class="picker" for="card3">Choose card:</label>
+        <select id="card3" onChange="swapImage3()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- 4th card slot -->
+
+      <div id="div4">
+        <img id="imageToSwap4" src="placeholder.jpg" />
+
+        <label class="picker" for="card4">Choose card:</label>
+        <select id="card4" onChange="swapImage4()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- 5th card slot -->
+
+      <div id="div5">
+        <img id="imageToSwap5" src="placeholder.jpg" />
+
+        <label class="picker" for="card5">Choose card:</label>
+        <select id="card5" onChange="swapImage5()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- 6th card slot -->
+
+      <div id="div6">
+        <img id="imageToSwap6" src="placeholder.jpg" />
+
+        <label class="picker" for="card6">Choose card:</label>
+        <select id="card6" onChange="swapImage6()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- 7th card slot -->
+
+      <div id="div7">
+        <img id="imageToSwap7" src="placeholder.jpg" />
+
+        <label class="picker" for="card7">Choose card:</label>
+        <select id="card7" onChange="swapImage7()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- 8th card slot -->
+
+      <div id="div8">
+        <img id="imageToSwap8" src="placeholder.jpg" />
+
+        <label class="picker" for="card8">Choose card:</label>
+        <select id="card8" onChange="swapImage8()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+
+      <!-- 9th card clot -->
+
+      <div id="div9">
+        <img id="imageToSwap9" src="placeholder.jpg" />
+
+        <label class="picker" for="card9">Choose card:</label>
+        <select id="card9" onChange="swapImage9()">
+          <option value="placeholder.jpg">Sorted by rank</option>
+          <optgroup label="Diamond">
+            <option value="DPhotos/campos46.jpg">Campos</option>
+            <option value="DPhotos/crucible68.jpg">Crucible</option>
+            <option value="DPhotos/dxrkness03.jpg">Dxrk</option>
+            <option value="DPhotos/gamerplayz19.jpg">GamerPlayz</option>
+            <option value="DPhotos/godez33.jpg">Godez</option>
+            <option value="DPhotos/humdinger59.jpg">Humdinger</option>
+            <option value="DPhotos/jackie18.jpg">Jackie</option>
+            <option value="DPhotos/jynx31.jpg">Jynx</option>
+            <option value="DPhotos/mizen30.jpg">Mizen</option>
+            <option value="DPhotos/nek61.jpg">Nek</option>
+            <option value="DPhotos/rob67.jpg">Robeart</option>
+            <option value="DPhotos/schefi38.jpg">Schefi</option>
+            <option value="DPhotos/someone51.jpg">Som1</option>
+            <option value="DPhotos/voiidz54.jpg">Voiidz</option>
+            <option value="DPhotos/wonky32.jpg">WonkyWoa</option>
+          </optgroup>
+          <optgroup label="Champion 1">
+            <option value="C1Photos/benji44.jpg">Benji</option>
+            <option value="C1Photos/cenza62.jpg">Cenza</option>
+            <option value="C1Photos/cheah60.jpg">Cheah</option>
+            <option value="C1Photos/form55.jpg">Form</option>
+            <option value="C1Photos/space63.jpg">SpaceJoker</option>
+            <option value="C1Photos/ven36.jpg">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion 2">
+            <option value="C2Photos/axlos37.jpg">Axlos</option>
+            <option value="C2Photos/hazzarinio40.jpg">Hazzarinio</option>
+            <option value="C2Photos/panda35.jpg">Panda</option>
+            <option value="C2Photos/sklapella16.jpg">Sklapella</option>
+          </optgroup>
+          <optgroup label="Champion 3">
+            <option value="C3Photos/aj14.jpg">AJ</option>
+            <option value="C3Photos/carter49.jpg">Carter</option>
+            <option value="C3Photos/chain34.jpg">Chain</option>
+            <option value="C3Photos/declan41.jpg">DeclanRose</option>
+            <option value="C3Photos/destren29.jpg">Destren</option>
+            <option value="C3Photos/pove39.jpg">Pove</option>
+            <option value="C3Photos/synthe57.jpg">Synthe</option>
+            <option value="C3Photos/wisp50.jpg">xWispy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 1">
+            <option value="GC1Photos/aircharged09.jpg">Aircharged</option>
+            <option value="GC1Photos/jawpy02.jpg">Jawpy</option>
+            <option value="GC1Photos/kaze23.jpg">Kaze</option>
+            <option value="GC1Photos/kro07.jpg">Kro</option>
+            <option value="GC1Photos/mclobe20.jpg">McLobe</option>
+            <option value="GC1Photos/olliem42.jpg">OllieM</option>
+            <option value="GC1Photos/pannen17.jpg">Pannen</option>
+            <option value="GC1Photos/sky15.jpg">Sky</option>
+            <option value="GC1Photos/sohnemann24.jpg">Sochemann</option>
+            <option value="GC1Photos/wavvy27.jpg">Wavvy</option>
+          </optgroup>
+          <optgroup label="Grand Champion 2">
+            <option value="GC2Photos/arckk47.jpg">Arckk</option>
+            <option value="GC2Photos/detroit53.jpg">Detroit</option>
+            <option value="GC2Photos/loris21.jpg">LorisRaptor</option>
+            <option value="GC2Photos/morck28.jpg">Morck</option>
+            <option value="GC2Photos/mordicia08.jpg">Mordicia</option>
+            <option value="GC2Photos/ruin58.jpg">Ruin</option>
+            <option value="GC2Photos/sheps48.jpg">Sheps</option>
+            <option value="GC2Photos/toasty25.jpg">Toasty</option>
+          </optgroup>
+          <optgroup label="Grand Champion 3">
+            <option value="GC3Photos/bloomz43.jpg">Bloom</option>
+            <option value="GC3Photos/d4rk26.jpg">D4rk</option>
+            +
+            <option value="GC3Photos/metjez22.jpg">Metjez</option>
+            <option value="GC3Photos/seb56.jpg">Sebalicious</option>
+            <option value="GC3Photos/stero13.jpg">Stero</option>
+            <option value="GC3Photos/wan06.jpg">Wan</option>
+          </optgroup>
+          <optgroup label="Supersonic Legend">
+            <option value="SSLPhotos/dizzle45.jpg">Dizzle</option>
+            <option value="SSLPhotos/drku10.jpg">Drku</option>
+            <option value="SSLPhotos/eccentrix66.jpg">Eccentrix</option>
+            <option value="SSLPhotos/feenix04.jpg">Feenix</option>
+            <option value="SSLPhotos/max11.jpg">Max</option>
+            <option value="SSLPhotos/noahpoah12.jpg">NoahPoah</option>
+            <option value="SSLPhotos/preceps52.jpg">Preceps</option>
+            <option value="SSLPhotos/raid01.jpg">Raid</option>
+            <option value="SSLPhotos/smashy05.jpg">Smashy</option>
+            <option value="SSLPhotos/ultra65.jpg">Ultra</option>
+          </optgroup>
+          <optgroup label="Inform">
+            <option value="InfPhotos/arckki13.png">Arckk</option>
+            <option value="InfPhotos/bloomi11.png">Bloom</option>
+            <option value="InfPhotos/hazzi12.png">Hazzarinio</option>
+            <option value="InfPhotos/kroi3.png">Kro</option>
+            <option value="InfPhotos/lorisi4.png">LorisRaptor</option>
+            <option value="InfPhotos/maxi10.png">Max</option>
+            <option value="InfPhotos/McLobei1.png">McLobe</option>
+            <option value="InfPhotos/noahi7.png">NoahPoah</option>
+            <option value="InfPhotos/raidi6.png">Raid</option>
+            <option value="InfPhotos/shepsi14.png">Sheps</option>
+            <option value="InfPhotos/sklapellai2.png">Sklapella</option>
+            <option value="InfPhotos/smashyi8.png">Smashy</option>
+            <option value="InfPhotos/steroi5.png">Stero</option>
+            <option value="InfPhotos/veni9.png">Venyu</option>
+          </optgroup>
+          <optgroup label="Champion">
+            <option value="ChampPhotos/ajc13.png">AJ</option>
+            <option value="ChampPhotos/bloomc17.png">Bloom</option>
+            <option value="ChampPhotos/carterc18.png">Carter</option>
+            <option value="ChampPhotos/chainc14.png">Chain</option>
+            <option value="ChampPhotos/dizzlec6.png">Dizzle</option>
+            <option value="ChampPhotos/drkuc12.png">Drku</option>
+            <option value="ChampPhotos/feenixc7.png">Feenix</option>
+            <option value="ChampPhotos/jawpyc11.png">Jawpy</option>
+            <option value="ChampPhotos/kroc15.png">Kro</option>
+            <option value="ChampPhotos/maxc4.png">Max</option>
+            <option value="ChampPhotos/noahc3.png">NoahPoah</option>
+            <option value="ChampPhotos/olliemc2.png">OllieM</option>
+            <option value="ChampPhotos/raidc1.png">Raid</option>
+            <option value="ChampPhotos/skyc16.png">Sky</option>
+            <option value="ChampPhotos/smashyc9.png">Smashy</option>
+            <option value="ChampPhotos/steroc10.png">Stero</option>
+            <option value="ChampPhotos/toastyc8.png">Toasty</option>
+            <option value="ChampPhotos/wanc5.png">Wan</option>
+          </optgroup>
+          <optgroup label="Record Breaker">
+            <option value="RBPhotos/ajrb1.png">AJ</option>
+            <option value="RBPhotos/drkurb6.png">Drku</option>
+            <option value="RBPhotos/jawpyrb7.png">Jawpy</option>
+            <option value="RBPhotos/krorb2.png">Kro</option>
+            <option value="RBPhotos/maxrb3.png">Max</option>
+            <option value="RBPhotos/noahrb5.png">NoahPoah</option>
+            <option value="RBPhotos/raidrb4.png">Raid</option>
+          </optgroup>
+          <optgroup label="GOAT">
+            <option value="GOATPhotos/maxG.png">Max</option>
+            <option value="GOATPhotos/noahG.png">NoahPoah</option>
+            <option value="GOATPhotos/raidG.png">Raid</option>
+          </optgroup>
+        </select>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <p class="end">
+      Made by Nek
+      <br />
+      <br />
+      <a href="https://airchargedrl.github.io/rlbcm//index.html"
+        >Official RLBC Website</a
+      >
+    </p>
+  </body>
+</html>
