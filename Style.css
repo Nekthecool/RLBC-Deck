@@ -21,66 +21,9 @@ img {
   color: white;
 }
 
-#div1 {
+.divisions {
   width: 230px;
   height: auto;
-  float: left;
-  display: block;
-}
-
-#div2 {
-  width: 230px;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-#div3 {
-  width: 230px;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-#div4 {
-  width: 230px;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-#div5 {
-  width: 230px;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-#div6 {
-  width: 230px;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-#div7 {
-  width: 230px;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-#div8 {
-  width: 230px;
-  height: auto;
-  float: left;
-  display: block;
-}
-
-#div9 {
-  width: 230px;
-  height: auto;
-  float: left;
   display: block;
 }
 
