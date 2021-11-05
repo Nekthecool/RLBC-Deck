@@ -3,10 +3,21 @@ body {
   background-color: #671caa;
 }
 
+.but {
+  text-align: center;
+}
+
+.buts {
+  font-size: 20px;
+  width: 200px;
+  margin: 10px;
+}
+
 h1 {
   text-align: center;
   color: white;
   text-decoration: underline;
+  font-size: 40px;
 }
 
 img {
@@ -92,6 +103,7 @@ img {
 .end {
   text-align: center;
   color: white;
+  font-size: 20px;
 }
 
 a {
